@@ -12,11 +12,20 @@ environment:
 
 dependencies:
   args: ^1.6.0 # dart.dev
-  asn1lib: ^0.8.1 # https://github.com/KomodoPlatform/asn1lib - TODO: sec review
-  clock: ^1.0.1 # https://github.com/KomodoPlatform/clock - TODO: sec review
+  asn1lib: # ^0.8.1 - DONE: Secure code reviewed e3589be
+    git:
+      url: git://github.com/KomodoPlatform/asn1lib.git
+      ref: e3589be96f730ac1ca25b9bbdfd40138a79e2f3a
+  clock: ^1.0.1 # DONE: Secure code reviewed 6210621
+    git:
+      url: git://github.com/KomodoPlatform/clock.git
+      ref: 62106213c6d43b61c4b48896ad8193110b73cac5
   collection: ^1.14.13 # dart.dev
   crypto: ^2.1.5 # dart.dev
-  pointycastle: ^2.0.0 # https://github.com/KomodoPlatform/pc-dart - TODO: sec review - published by bouncycastle.org (verified)
+  pointycastle: # ^2.0.0 TODO/work in pro: Secure code review 162a6ac
+    git:
+      url: git://github.com/KomodoPlatform/pc-dart.git
+      ref: 162a6ac2b75c693ffa30cd2e4ff26757c91e988d
 
 dev_dependencies:
   test: ^1.15.4 # dart.dev
