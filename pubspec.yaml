@@ -16,7 +16,7 @@ dependencies:
     git:
       url: git://github.com/KomodoPlatform/asn1lib.git
       ref: e3589be96f730ac1ca25b9bbdfd40138a79e2f3a
-  clock: ^1.0.1 # DONE: Secure code reviewed 6210621
+  clock: # ^1.0.1 DONE: Secure code reviewed 6210621
     git:
       url: git://github.com/KomodoPlatform/clock.git
       ref: 62106213c6d43b61c4b48896ad8193110b73cac5
