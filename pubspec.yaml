@@ -19,7 +19,7 @@ dependencies:
   clock: # ^1.0.1 DONE: Secure code reviewed 6210621
     git:
       url: git://github.com/KomodoPlatform/clock.git
-      ref: 62106213c6d43b61c4b48896ad8193110b73cac5
+      ref: b703d0c4fed4c57ac4d2c0637b2b34474d22e14a
   collection: ^1.14.13 # dart.dev
   crypto: ^2.1.5 # dart.dev
   pointycastle: # ^2.0.0 TODO/work in pro: Secure code review 162a6ac
