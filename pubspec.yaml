@@ -12,11 +12,20 @@ environment:
 
 dependencies:
   args: ^1.6.0
-  asn1lib: ^0.6.4
-  clock: ^1.0.1
+  asn1lib: # ^0.6.4 - DONE: Secure code reviewed 1f5e2f2
+    git:
+      url: git://github.com/KomodoPlatform/asn1lib.git
+      ref: 1f5e2f2d0d4543456880962ebf5adc5dcd30082d
+  clock: # ^1.0.1 DONE: Secure code reviewed b703d0c
+    git:
+      url: git://github.com/KomodoPlatform/clock.git
+      ref: b703d0c4fed4c57ac4d2c0637b2b34474d22e14a
   collection: ^1.14.12
   crypto: ^2.1.4
-  pointycastle: ^1.0.2
+  pointycastle: # ^1.0.2 DONE: Secure code reviewed d106a92
+    git:
+      url: git://github.com/KomodoPlatform/pc-dart.git
+      ref: d106a9218a9df81ef4e0ab239ce5db2fcd9a7435
 
 dev_dependencies:
   test: ^1.14.3
