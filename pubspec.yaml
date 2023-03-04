@@ -15,7 +15,10 @@ dependencies:
   clock: ^1.1.0
   collection: ^1.15.0
   crypto: ^3.0.0
-  pointycastle: ^3.5.0
+  pointycastle:
+    git:
+      url: https://github.com/KomodoPlatform/pc-dart
+      ref: 3.6.2
 
 dev_dependencies:
   test: ^1.16.8
